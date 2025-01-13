@@ -4,6 +4,7 @@
     --background_color_header_table: #20a9e5;
     --background_color_body_table: #b1e5f2;
     --alternative_background_color_body_table: white;
+    --author: #858585;
 
 }
 
@@ -35,10 +36,7 @@ body {
 
 #author {
     margin: 0 0 0 8px;
-}
-
-#author_write {
-    display: block;
+    color: var(--author);
 }
 
 #write {
@@ -47,7 +45,6 @@ body {
 
 #author_name {
     margin: 0;
-    font-size: 25px;
     color: var(--background_color_header);
 }
 
