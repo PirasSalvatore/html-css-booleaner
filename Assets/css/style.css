@@ -92,3 +92,23 @@ main {
 .highlighted_row {
     background-color: var(--background_color_body_table);
 }
+
+#more {
+    color: var(--author);
+}
+
+#more1 {
+    color: white;
+    background-image: url("../img/monitor.jpg");
+    background-size: 100%;
+    width: 15%;
+    height: 100px;
+}
+
+#more2 {
+    color: white;
+    background-image: url("../img/graph.jpg");
+    background-size: 100%;
+    width: 15%;
+    height: 100px;
+}
