@@ -1,0 +1,31 @@
+:root {
+
+    --background_color_header: #4ea0ff;
+    --background_color_header_table: #20a9e5;
+    --background_color_body_table: #b1e5f2;
+    --alternative_background_color_body_table: white;
+
+}
+
+
+
+#header {
+    background-image: url("../img/pattern.png");
+    background-color: var(--background_color_header);
+    background-size: 235px;
+    background-position: 42px -5px;
+    font-size: 15px;
+}
+
+#container_header_title {}
+
+#header_title {
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+}
+
+body {
+    margin: 0;
+
+}
