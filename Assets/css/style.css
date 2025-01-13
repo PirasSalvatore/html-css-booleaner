@@ -73,3 +73,7 @@ main {
 .highlighted_text {
     background-color: var(--highlighted);
 }
+
+#list {
+    padding-left: 18px;
+}
