@@ -77,3 +77,18 @@ main {
 #list {
     padding-left: 18px;
 }
+
+#table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+
+#table_header {
+    background-color: var(--background_color_header_table);
+    color: white;
+}
+
+.highlighted_row {
+    background-color: var(--background_color_body_table);
+}
