@@ -5,6 +5,7 @@
     --background_color_body_table: #b1e5f2;
     --alternative_background_color_body_table: white;
     --author: #858585;
+    --highlighted: yellow;
 
 }
 
@@ -67,4 +68,8 @@ main {
 
 #description2 {
     margin: 0;
+}
+
+.highlighted_text {
+    background-color: var(--highlighted);
 }
