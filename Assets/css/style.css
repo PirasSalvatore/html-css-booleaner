@@ -7,25 +7,39 @@
 
 }
 
-
+body {
+    margin: 0;
+}
 
 #header {
     background-image: url("../img/pattern.png");
     background-color: var(--background_color_header);
-    background-size: 235px;
-    background-position: 42px -5px;
-    font-size: 15px;
+    background-size: 470px 125px;
+    background-position: 85px -5px;
 }
 
-#container_header_title {}
 
 #header_title {
     color: white;
     margin: 0;
     padding-top: 20px;
+    padding-left: 10px;
 }
 
-body {
-    margin: 0;
 
+#main_title {
+    margin-left: 8px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+#author {
+    margin-left: 8px;
+    display: inline-block;
+
+}
+
+#author_name {
+    margin-top: 0;
+    font-size: 25px;
 }
