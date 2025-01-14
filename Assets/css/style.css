@@ -1,73 +1,56 @@
 :root {
-
     --background_color_header: #4ea0ff;
     --background_color_header_table: #20a9e5;
     --background_color_body_table: #b1e5f2;
     --alternative_background_color_body_table: white;
     --author: #858585;
     --highlighted: yellow;
-
 }
 
-body {
+* {
     margin: 0;
 }
 
 main {
-    margin-left: 8px;
+    margin: 1rem;
 }
 
 #header {
+    height: 100px;
     background-image: url("../img/pattern.png");
     background-color: var(--background_color_header);
-    background-size: 470px 125px;
-    background-position: 85px -5px;
+    background-size: 30%;
 }
 
+.logo {
 
-#header_title {
-    color: white;
-    margin: 0;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 180px;
+    margin-top: 3rem;
+    padding-left: 1rem;
 }
 
 
 #main_title {
     margin-bottom: 0;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #author {
-    margin: 0;
     color: var(--author);
-}
-
-#write {
-    margin: 0;
+    margin-bottom: 1.5rem;
 }
 
 #author_name {
-    margin: 0;
     color: var(--background_color_header);
 }
 
 #date {
     font-size: 10px;
-    margin: 0;
 }
 
 #description {
-    margin: 0;
     font-size: 10px;
-}
-
-#description1 {
-    margin: 0;
-}
-
-#description2 {
-    margin: 0;
+    margin-bottom: 1.5rem;
 }
 
 .highlighted_text {
@@ -75,13 +58,15 @@ main {
 }
 
 #list {
+    margin-top: 1.5rem;
     padding-left: 18px;
+    margin-bottom: 1.5rem;
 }
 
 #table {
-    table-layout: fixed;
-    width: 100%;
     text-align: left;
+    border-spacing: 0;
+    margin-bottom: 1.5rem;
 }
 
 #table_header {
@@ -89,12 +74,18 @@ main {
     color: white;
 }
 
+.w_50 {
+    width: 50%;
+}
+
 .highlighted_row {
     background-color: var(--background_color_body_table);
 }
 
 #more {
+    margin-top: 1.5rem;
     color: var(--author);
+    margin-bottom: 1.5rem;
 }
 
 #more1 {
@@ -103,6 +94,8 @@ main {
     background-size: 100%;
     width: 15%;
     height: 100px;
+    margin-bottom: 0.5rem;
+    padding-top: 0.2rem;
 }
 
 #more2 {
@@ -111,4 +104,5 @@ main {
     background-size: 100%;
     width: 15%;
     height: 100px;
+    padding-top: 0.2rem;
 }
